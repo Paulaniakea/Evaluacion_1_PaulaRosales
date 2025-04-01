@@ -1,0 +1,17 @@
+.body {
+    background-color: black;
+    color: black;
+    justify-content:center;
+}
+
+
+.p {
+    color: #FC9403;
+    justify-content:center;
+}
+
+.navbar {
+    background-color: #000000;
+    font-weight: bold;
+    font-family: Verdana;
+}

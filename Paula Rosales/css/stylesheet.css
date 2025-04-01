@@ -1,5 +1,5 @@
 .body {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     color: black;
     justify-content:center;
 }
@@ -14,4 +14,8 @@
     background-color: #000000;
     font-weight: bold;
     font-family: Verdana;
+}
+
+.container {
+    background-color: #1A1A1A;
 }

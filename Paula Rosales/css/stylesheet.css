@@ -1,12 +1,11 @@
 .body {
     background-color: rgb(255, 255, 255);
-    color: black;
     justify-content:center;
 }
 
 
 .p {
-    color: #FC9403;
+    color:white;
     justify-content:center;
 }
 
@@ -18,4 +17,8 @@
 
 .container {
     background-color: #1A1A1A;
+}
+
+.h2 {
+    color:white;
 }

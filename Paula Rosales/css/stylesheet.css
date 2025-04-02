@@ -1,16 +1,14 @@
-.body {
-    background-color: rgb(255, 255, 255);
-    justify-content:center;
-}
+body {
+    background-color: #EBE5CC !important;
+  }
 
-
-.p {
-    color:white;
+p {
     justify-content:center;
+    text-align: center;
 }
 
 .navbar {
-    background-color: #000000;
+    background-color: #EBD8CC ;
     font-weight: bold;
     font-family: Verdana;
 }
@@ -19,6 +17,12 @@
     background-color: #1A1A1A;
 }
 
-.h2 {
-    color:white;
+h1 {
+    color:black;
+    text-align: center !important;
+}
+
+h2 {
+    color:black !important;
+    text-align: center !important;
 }

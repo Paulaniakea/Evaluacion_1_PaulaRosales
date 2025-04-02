@@ -5,6 +5,7 @@ body {
 p {
     text-align: center;
     font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
 }
 
 .navbar {
@@ -31,4 +32,8 @@ h2 {
     text-align: center;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: bolder;
+}
+
+.container-fluid {
+    background-color: #d35400;
 }

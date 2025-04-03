@@ -14,18 +14,18 @@
 <body>
 
 <!-- barra navegador del landing -->
-  <nav class="navbar navbar-expand-sm mb-4 text-white rounded-bottom">
-      <div class="container-fluid justify-content-center d-flex flex-column align-items-center">
-        <a class="navbar-brand text-center" href="#">
-          <img src="imagenes/logo.svg" width="180" height="180" class="d-block mx-auto">
-          <h1>El Aniquilador del Hambre</h1>
-        </a>
+  <nav class="navbar navbar-expand-sm bg-black fixed-top mb-4 text-white rounded-bottom">
+      <div class="container-fluid bg-black d-flex flex-column">
+        <div class="d-flex align-items-center">
+          <a href="#top" class="d-flex align-items-center text-decoration-none">
+            <img src="imagenes/LOGOCHISTOSO.png" width="60" height="60" alt="Logo" class="me-2">
+            <h1 class="h5 m-0 text-white">EL ANIQUILADOR DEL HAMBRE</h1>
+          </a>
+        </div>
         
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
-
-        <br><br>
 
         <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
           <ul class="navbar-nav">
@@ -42,26 +42,28 @@
               </li>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-center text-white" href="#">Historia</a>
+              <a class="nav-link text-center text-white" href="#nuestrahistoria">Historia</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-center text-white" href="#">Sucursales</a>
+              <a class="nav-link text-center text-white" href="#sucursales">Sucursales</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-center text-white" href="#">Contacto</a>
+              <a class="nav-link text-center text-white" href="#contacto">Contacto</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
+    <br>
+    
 <!-- comenzando la carta -->
-<div class="container bg-white my-5" id="NuestraCarta">
+<div class="container bg-white my-5" id="NuestraCarta" id="top">
   <img class="img-fluid" src="imagenes/nuestracarta.svg">
 </div>
 
 <!-- Carrusel -->
-<div class="container d-flex bg-black justify-content-center p-4 rounded">  
+<div class="container d-flex justify-content-center p-4 rounded" style="background-color:#F0B756;">  
   <div id="carruselProductos" class="carousel slide" data-bs-ride="carousel" style="max-width: 800px; width: 100%;;">
 
     <!-- indicadores -->
@@ -99,7 +101,7 @@
 
 <!-- seccion de comida -->    
     <h2 class="h2" id="comida">Comida</h2>
-    <div class="container bg-black d-flex text-white justify-content-center p-3 rounded-top">
+    <div class="container d-flex text-white justify-content-center p-3 rounded-top" style="background-color: #F0B756;">
       <div class="card m-5" style="width:400px">
         <img class="card-img-top" src="imagenes/2.svg" alt="prueba">
         <div class="card-body text-center">
@@ -119,7 +121,7 @@
       </div>
     </div>
 
-    <div class="container bg-black d-flex text-white justify-content-center p-3 rounded-bottom">
+    <div class="container d-flex text-white justify-content-center p-3 rounded-bottom" style="background-color: #F0B756;">
       <div class="card m-5" style="width:400px">
         <img class="card-img-top" src="imagenes/3.svg" alt="prueba">
         <div class="card-body text-center">
@@ -142,7 +144,7 @@
     <br><br>
 
     <h2 class="h2" id="bebestible">Bebestible</h2>
-    <div class="container d-flex bg-black text-white justify-content-center p-3 rounded">
+    <div class="container d-flex text-white justify-content-center p-3 rounded" style="background-color: #F0B756;">
       <div class="card m-5" style="width:400px">
         <img class="card-img-top" src="imagenes/5.svg" alt="prueba">
         <div class="card-body text-center">
@@ -162,10 +164,10 @@
     
     <!-- historia -->
     <br><br>
-    <div class="container d-flex bg-white my-5" id="NuestraCarta">
+    <div class="container d-flex my-5" id="nuestrahistoria">
       <img class="img-fluid" src="imagenes/historia.svg">
     </div>
-    <div class="container d-flex my-5 rounded">
+    <div class="container d-flex my-5 rounded p-3" style="background-color: #F0B756;">
       <p>En <strong>El Aniquilador del Hambre</strong> no nos andamos con cosas: si vas a comer, que sea en serio. 
         Creemos en la comida rica, contundente y sin vueltas. Nada de porciones tristes ni sabores aburridos. 
         Aquí venís a saciar el hambre con ganas.<br><br>
@@ -184,16 +186,72 @@
         </p>
     </div>
 
-
-    <br><br>
-
     <!-- sucursales -->
-    <br><br>
-    <h1>Sucursales</h1>
-    <br><br>
+    <div class="container d-flex my-1 " id="sucursales">
+      <img class="img-fluid" src="imagenes/sucursales.svg">
+    </div>
+    <div class="container flex-column my-5 rounded p-3 justify-content-center text-center" style="background-color: #F0B756;">
+      <h3>Sucursal Baquedano</h3>
+      <p>Baquedano #609 <br> Horario de atención: 10:00 a 20:00 hrs</p>
+      <div class="ratio ratio-16x9 mb-4">
+        <iframe class="d-block mx-auto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3064.3140096801317!2d-73.24255552333953!3d-39.82237687154143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9615ee6548bb41ab%3A0x439f351a7c209896!2sBaquedano%20609%2C%205110718%20Valdivia%2C%20Los%20R%C3%ADos!5e0!3m2!1ses-419!2scl!4v1743680635870!5m2!1ses-419!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <hr>      
+      <h3>Sucursal Carlos Anwandter</h3>
+      <p>Carlos Anwandter #625<br> Horario de atención: 10:00 a 22:30 hrs</p>
+      <div class="ratio ratio-16x9 mb-4">
+        <iframe class="d-block mx-auto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3064.760512739671!2d-73.24283142334001!3d-39.81236347154315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9615ee780fb6660d%3A0xc889cdb8793f8264!2sCarlos%20Anwandter%20625%2C%205110311%20Valdivia%2C%20Los%20R%C3%ADos!5e0!3m2!1ses-419!2scl!4v1743680849182!5m2!1ses-419!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
 
+<!-- contacto (reclamo o sugerencia) -->
+<div class="container d-flex my-1 " id="contacto">
+  <img class="img-fluid" src="imagenes/contacto.svg">
+</div>
+<div class="container flex-column my-5 rounded p-3 justify-content-center text-center" style="background-color: #F0B756;">
+  <!--formulario de contacto-->
+  <div class="container mt-3">
+    <h2>Formulario de contacto - Reclamo o Sugerencia</h2>
+    <form action="/action_page.php">
 
+      <div class="mb-3 text-start">
+        <label for="nombre" class="form-label">Nombre:</label>
+        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Tu nombre" required>
+      </div>
 
-        
+      <div class="mb-3 text-start">
+        <label for="nombre" class="form-label">Apellido:</label>
+        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Tu nombre" required>
+      </div>
+
+      <div class="mb-3 text-start">
+        <label for="nombre" class="form-label">Teléfono:</label>
+        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Tu nombre" required>
+      </div>
+
+      <div class="mb-3 text-start">
+        <label for="nombre" class="form-label">Correo:</label>
+        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Tu nombre" required>
+      </div>
+
+      <!--aqui iria el mensaje-->
+      <div class="mb-3">
+        <label for="mensaje" class="form-label">Mensaje (reclamo o sugerencia):</label>
+        <textarea class="form-control" id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
+      </div>
+
+      
+      <button type="submit" class="btn btn-primary">Enviar</button>
+
+    </form>
+  </div>
+  
+  </body>
+  </html>
+  
+</div>
+
+ 
+    
 </body>
 </html>

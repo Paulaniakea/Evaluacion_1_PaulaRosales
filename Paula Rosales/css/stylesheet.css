@@ -22,13 +22,14 @@ p {
 }
 
 h1 {
-    color: #FFFFFF;
+    color: #FFFFFF !important;
     text-align: center;
     font-family: Helvetica, Arial, sans-serif;
+    font-weight: bolder;
   }
 
 h2 {
-    color: #FFFFFF;
+    color: #000000 !important;
     text-align: center;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: bolder;

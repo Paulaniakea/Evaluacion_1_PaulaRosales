@@ -35,6 +35,11 @@ h2 {
     font-weight: bolder;
 }
 
-.container-fluid {
-    background-color: #d35400;
+h4 {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+h5 {
+    color: brown !important;
 }
